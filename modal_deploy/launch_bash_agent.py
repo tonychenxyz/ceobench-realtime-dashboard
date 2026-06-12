@@ -55,8 +55,7 @@ image = (
         # CRITICAL: bubblewrap is required to sandbox the agent's bash from the
         # private engine source under /data/saas-bench/src/. Without bwrap,
         # tools.py:_exec_bash silently falls back to plain `bash -c` and the
-        # agent can read config.py/simulation.py. The 2026-04-29 launch missed
-        # this and leaked one full run (sb-n2ff0m2Wgbi1CznAOODIKU).
+        # agent can read config.py/simulation.py.
         "bubblewrap",
     )
     .run_commands(
