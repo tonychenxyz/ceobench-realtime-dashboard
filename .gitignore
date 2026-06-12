@@ -1,0 +1,14 @@
+.env
+.venv/
+.tmp/
+__pycache__/
+*.py[cod]
+*.log
+monitor/data.json
+modal_deploy/state/
+data/
+runs/
+*.db
+*.sqlite
+*.nmdb
+

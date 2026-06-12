@@ -1,0 +1,10 @@
+[project]
+name = "saasbench-base-agent-dashboard"
+version = "0.1.0"
+description = "Ops tooling for launching SaaSBench bash_agent runs and monitoring them through Modal."
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi[standard]>=0.115",
+    "modal>=1.3,<2",
+]
+
