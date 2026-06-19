@@ -8,7 +8,7 @@ monitor/data.json
 modal_deploy/state/
 data/
 runs/
+run_logs/
 *.db
 *.sqlite
 *.nmdb
-
